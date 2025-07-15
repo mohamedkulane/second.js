@@ -35,23 +35,19 @@
 .buttns {
     display: flex;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 
 }
-.buttns button{
-    background-color: orange;
-    padding: 10px 20px;
-    border-radius: 8px;
+.buttns i{
+  color: orange;
+  font-size: 24px;
 }
 .lists{
     display: flex;
     gap: 0.4rem;
     margin-top: 2rem;
 
-}
-.lists ul li{
-    font-size: 20px;
 }
 .product{
     display: grid;
@@ -60,10 +56,11 @@
     align-items: center;
 }
 .product{
-    margin-top: 2rem;
+    margin-top: 0.4rem;
 }
 .product span{
-    background-color: orange;
+    background-color: transparent;
+    border: 2px solid orange;
     border-radius: 6px;
     padding:10px 8px;
 }
@@ -120,8 +117,13 @@
    .rigth p,h1{
     text-align: center;
    }
-   .buttns{
+   .rigth .h1{
+    font-size: 22px;
+    width: 350px;
     margin-left: 3rem;
+   }
+   .buttns{
+    margin-left: 7rem;
    }
    .lists{
     margin-left: 2rem;
@@ -197,7 +199,11 @@
     margin-top: 1rem;
    }
    .buttns{
-    margin-left: 8rem;
+    margin-left: 15em;
+   }
+   .buttns i{
+    font-size: 42px;
+    
    }
    .buttns button{
     padding: 20px 40px;
