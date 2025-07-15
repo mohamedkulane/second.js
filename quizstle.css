@@ -95,6 +95,10 @@
 .lower p{
     font-size: 24px;
 }
+.coun{
+    display: flex;
+    gap: 2rem;
+}
 @media(max-width:390px){
    .main{
     display: block;
