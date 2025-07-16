@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="m-0 p-0">
+    <div class="flex justify-between  px-3 py-4 items-center bg-teal-900 text-neutral-300 ">
+        <div class="flex">
+        <h1 class="text-4xl font-bold text-left -ml[10em] sm:ml-0">JM9</h1>
+        </div>
+  
+           <i id="icon" class="fa-solid fa-bars text-4xl pr-2 sm:hidden"></i>
+           <i id="icon2" class="fa-solid fa-x text-4xl pr-2 sm:hidden hidden"></i>
+
+        <div class=" sm:flex hidden gap-24 pr-11">
+        <ul class="  flex justify-center gap-11 text-2xl items-center">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+       
+            <i class="fa-solid fa-cart-shopping text-3xl relative"><span id="plus" class="absolute -top-5 text-xl ">(0)</span></i>
+        </div>
+          </div>
+          <!-- side bar -->
+        <div id="menu" class="sm:hidden text-center bg-teal-900 space-y-8 text-white -mt-2 hidden">
+        <ul class="  items-center justify-center gap-20 text-2xl space-y-5">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+       
+            <i class="fa-solid fa-cart-shopping text-3xl relative"><span class="absolute -top-5 text-xl pt-3">(0)</span></i>
+        </div>
+    <div class="flex justify-center gap-[8rem] mt-[5em] pl-3px items-center">
+        <div>
+        <h1 class="text-4xl w-[400px] text-emerald-700 font-bold">Best place for shopping in your Area</h1>
+        <p class="text-[24px] w-[550px] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias at repellendus illum voluptates nobis quos!</p>
+        <div>
+        <button id="increment" class="bg-teal-800 text-neutral-200 mt-3 px-14 py-3 font-bold rounded-md  text-[18px]">Add Cart</button>
+        <button id="decrement" class="bg-teal-800 text-neutral-200 mt-3 px-14 py-3 font-bold rounded-md  text-[18px]">Remove Cart</button>
+    </div>
+    </div>
+    <div>
+        <img src="imge.jpg" alt="" class="w-[400px] h-[350px] rounded-[8px]">
+    </div>
+    </div>
+
+   
+
+    
+<script src="mai.js"></script>   
+</body>
+</html>
